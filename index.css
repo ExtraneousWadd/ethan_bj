@@ -1,0 +1,25 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    background-image: url("images/table.png");
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+button{
+    background-color: goldenrod;
+    padding: 1em;
+    border-radius: 10%;
+    margin: 1em;
+    width: 150px;
+    height: 50px;
+}
+
+#message-el {
+    
+}
