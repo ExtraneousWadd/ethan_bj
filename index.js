@@ -47,10 +47,12 @@ function startGame(){
 }
 
 function newCard(){
+    if(isAlive){
     let card = getRandomCard();
     sum += card;
     const add = cards.push(card);
     renderGame();
+    }
 }
 
 function getRandomCard(){
